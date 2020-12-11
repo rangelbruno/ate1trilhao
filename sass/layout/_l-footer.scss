@@ -1,0 +1,9 @@
+$componet-name: 'l-footer';
+
+.l-footer {
+    background-color: var(--color-webfatorial-error);
+    grid-area: footer;
+    height: rem(75);
+
+    display: flex;
+}

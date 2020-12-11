@@ -1,0 +1,13 @@
+$componet-name: 'l-main';
+
+.l-main {
+    background-color: aqua;
+    grid-area: main;
+
+    display: grid;
+    grid-template-areas: 
+        "aside content publicity"
+        "aside content publicity";
+    grid-template-columns: rem(250) 1fr;
+
+}

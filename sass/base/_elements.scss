@@ -69,6 +69,12 @@ sub {
 body {
   font-family: Nunito, sans-serif;
   font-size: $global-font-size;
+  display: grid;
+  grid-template-areas: 
+    "headers headers headers"
+    ".   main   ."
+    "footer footer footer";
+    grid-template-columns: 1fr $global-max-width 1fr ;
 }
 
 // ::selection {
